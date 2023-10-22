@@ -63,10 +63,11 @@ When you preseve with the -p flag, any unchecked tasks will be brought to the ne
 Any line prefixed with a -p in the note will also be preserved. 
 
 For example:
-
+```sh
 - item 1
 -p preserved item 3
 - item 3
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -113,6 +114,7 @@ To get started you will need the following installed on your system:
 daily-notes init
 
 Creates the following directory structure:
+```sh
 root/
 ├── config.yaml
 ├── notes
@@ -121,20 +123,25 @@ root/
 │      └── day.md
 └── templates
 	└── daily.md
+```
 
 
 ### New
 
+```sh
 daily-notes new
 daily-notes new -p // Preserves notes from last day
 daily-notes new -d 1 // Creates a note for tomorrow
+```
 
 Adds the following file:
+```sh
 root/
 └── notes
     └── month
         └── week
             └── day.md
+```
 
 The day.md file will be created with based on the template specified in the config.yaml file.
 
