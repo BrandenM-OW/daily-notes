@@ -110,8 +110,9 @@ To get started you will need the following installed on your system:
 ## Usage
 
 ### init
-
+```sh
 daily-notes init
+```
 
 Creates the following directory structure:
 ```sh
@@ -143,7 +144,7 @@ root/
             └── day.md
 ```
 
-The day.md file will be created with based on the template specified in the config.yaml file.
+The day.md file will be created based on the template specified in the config.yaml file.
 
 If the preserve flag is set, the last day.md file will be used as a template for the new day.md file.
 	- All unchecked tasks will be copied over
