@@ -92,7 +92,7 @@ To get started you will need the following installed on your system:
 
 1. Clone the repo
    ```sh
-   git clone hhttps://github.com/BrandenM-OW/daily-notes.git
+   git clone https://github.com/BrandenM-OW/daily-notes.git
    ```
 2. Build the project 
    ```sh
