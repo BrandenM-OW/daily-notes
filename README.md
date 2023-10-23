@@ -46,7 +46,7 @@
 
 ## About The Project
 
-Daily notes allows you to maintain a customized template in Markdown to generate your notes from and allows you to preseve items from the previous day.
+Daily notes allow you to maintain a customized template in Markdown to generate your note files and allow you to preserve items from the previous day.
 
 For example:
 
